@@ -1,6 +1,6 @@
 # Fail on any command.
 set -eux pipefail
-sleep 5
+
 # Install plug-ins (you can git-pull to update them later).
 (cd ~/.oh-my-zsh/custom/plugins && git clone https://github.com/zsh-users/zsh-syntax-highlighting)
 (cd ~/.oh-my-zsh/custom/plugins && git clone https://github.com/zsh-users/zsh-autosuggestions)
